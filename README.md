@@ -3,12 +3,12 @@
 ## **Introduction**
  Python is a high level programming language created by Guido van Rossum. 
 It is used in many worldly applications ie
-	- Web application( server side).
-	- Data science
-	- Machine Learning and Artificial intelligence.
-	- System scriptiing.
-	- Software Engineering
-	- Mathematics applicatios among other applications.
+- Web application( server side).
+- Data science
+- Machine Learning and Artificial intelligence.
+- System scriptiing.
+- Software Engineering
+- Mathematics applicatios among other applications.
 ***
 ### Why python?
  Python is easy to learn, powerful programming language. It uses simple sintax as English language, It can be created in structured way, Object-oriented programming or a functional way.
@@ -20,13 +20,13 @@ It is used in many worldly applications ie
 ## Installation
 Python works in most operating system such as Windows, Linux, MAC and others.
 To check if your computer is installed with python open CMD in Windows or Rerminal in Mac and type:
-> `pyton --version`
+> `python --version`
 If its not installed , python can be installed from [Python website](https://www.python.org/).
 ***
 
 ## Python syntax
 
-### Python Indetion
+### Python Indetation
 Indetion Refers to thespaces at the begining of a line code, this is an important concept in python,
 ### variables
 Just like C variales, they are declared and initialized using assignment operator.
