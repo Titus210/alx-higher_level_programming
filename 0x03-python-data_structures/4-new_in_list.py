@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-def no_c(my_string):
-    my_string_list = list(my_string)
-    new_string = [l for l in my_string_list if l != 'c' and l != 'C']
-    return "".join(new_string)
+def new_in_list(my_list, idx, element):
+    copy = my_list.copy()
+    if idx < 0 or idx > len(my_list) - 1:
+        return my_list.copy()
+    else:
+        copy[idx] = element
+        return copy
