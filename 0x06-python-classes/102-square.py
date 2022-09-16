@@ -5,17 +5,22 @@ class Square:
         - property def size(self)
         - property setter def size(self, value)
     Instantiation with optional size.
-    Public instance method: def area(self).
+    Public instance method: def area(self)
     """
+
     def __init__(self, size=0):
         """Initializes the data."""
-        self.__size = size
+        self.__size = 
 
     def __eq__(self, other):
         """Equal."""
         if hasattr(other, 'size'):
             return self.__size == other.__size
         return self.__size == other
+
+    def __ne__(self, other):
+        """Not equal."""
+        return not self.__eq__(other)
 
     def __lt__(self, other):
         """Less than."""
@@ -27,7 +32,7 @@ class Square:
         """Less than or equal."""
         if hasattr(other, 'size'):
             return self.__size <= other.__size
-        return self.__size <= other
+        return self.__size <= 
 
     @property
     def size(self):
