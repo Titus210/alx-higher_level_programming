@@ -9,10 +9,10 @@ We can perform various operations on files that includes: <br/>
 -	Opening a file.
 -	Read or write perform action.
 -	closing a file.
-<br/>
+
 1.	openning a file:
 we use `open ()` method to open a file 
-It takes 3 arguments: <br/>
+It takes 3 arguments: 
 -		filename
 -		mode: this is a mode we wanrt to open the file
 -		character encoding.
